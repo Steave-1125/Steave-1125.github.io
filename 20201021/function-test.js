@@ -17,8 +17,16 @@
 function math(){
   return 2018*1010;
 }
+function multiply(a,b){
+  return a*b;
+}
+function multiplieOnesPlace(a,b){
+  return (a*b)%10;
+}
 
-let ans = math();
-console.log(ans);
+function multiplieTensPlace(a,b){
+  return Math.floor(a*b%100/10);
+}
 
-console.log(ans);
+
+

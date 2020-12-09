@@ -1,3 +1,4 @@
+//全員のツイート
 function All_tweet(){
   let answerElement = document.querySelector("#tweet");
   let output = "<ul style='list-style: none;'>";
@@ -8,6 +9,7 @@ function All_tweet(){
   answerElement.innerHTML = output;
 }
 
+//三郎Botのツイート
 function Sabro_tweet(){
   let answerElement = document.querySelector("#tweet");
   let output = "<ul style='list-style: none;'>";
@@ -21,6 +23,7 @@ function Sabro_tweet(){
   answerElement.innerHTML = output;
 }
 
+//次郎のツイート
 function ziro_tweet(){
   let answerElement = document.querySelector("#tweet");
   let output = "<ul style='list-style: none;'>";
@@ -34,6 +37,7 @@ function ziro_tweet(){
   answerElement.innerHTML = output;
 }
 
+//太郎のツイート
 function taro_tweet(){
   let answerElement = document.querySelector("#tweet");
   let output = "<ul style='list-style: none;'>";

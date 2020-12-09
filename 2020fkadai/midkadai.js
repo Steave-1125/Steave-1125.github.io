@@ -1,11 +1,3 @@
-// let answerElement = document.querySelector("#tweet");
-// let output = "<ul>";
-// for(let i = 0; i < tweets.length; i++) {
-//   output += `<li> ${tweets[i].avatar} <b>${tweets[i].name}</b> ${tweets[i].message} <i>${tweets[i].tweetedAt}</i> </li>`;
-// }
-// output += "</ul>";
-// answerElement.innerHTML = output;
-
 function All_tweet(){
   let answerElement = document.querySelector("#tweet");
   let output = "<ul style='list-style: none;'>";

@@ -6,6 +6,7 @@ a {
   text-decoration: none;
 }
 
+/*ヘッダー*/
 header{
   background-color: rgba(255,140,0,0.5);
   height: 120px;
@@ -48,6 +49,41 @@ header{
   background-color: forestgreen;
 }
 
+/*ローディング*/
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+#loading {
+  width: 100vw;
+  height: 100vh;
+  transition: all 1s;
+  background-color: #0bd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+      transform: scale(1.0);
+      opacity: 0;
+    }
+}
+
+/*メニュー*/
 .top-menu{
   margin: 0;
   display:flex;
@@ -65,12 +101,14 @@ header{
   color: white;
 }
 
+/*スライドショー*/
 .slidshow{
   background-color: darkgray;
   text-align: center;
   padding: 50px;
 }
 
+/*お知らせ*/
 .announces h2{
   margin-top: 100px;
   text-align: center;
@@ -89,6 +127,7 @@ header{
   font-size: 30px;
 }
 
+/*フッター*/
 footer{
   margin: 30px 0 0 0;
   background-color: darkturquoise;

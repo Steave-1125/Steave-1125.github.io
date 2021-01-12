@@ -6,6 +6,7 @@ a {
   text-decoration: none;
 }
 
+/*ヘッダー*/
 header{
   background-color: rgba(255,140,0,0.5);
   height: 120px;
@@ -47,6 +48,7 @@ header{
 .header_login:hover{
   background-color: forestgreen;
 }
+
 /*ローディング*/
 .loaded {
   opacity: 0;
@@ -81,6 +83,7 @@ header{
     }
 }
 
+/*メニュー*/
 .top-menu{
   margin: 0;
   display:flex;
@@ -98,10 +101,12 @@ header{
   color: white;
 }
 
-.ex-img{
+.search-box{
   text-align: center;
 }
 
+
+/*フッター*/
 footer{
   margin: 30px 0 0 0;
   background-color: darkturquoise;

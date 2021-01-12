@@ -1,6 +1,5 @@
 html{
   height: 1980px;
-  font-size: 62.5%;
 }
 
 body{
@@ -91,5 +90,5 @@ header{
 }
 
 #announce{
-  font-size: 3.0rem;
+  font-size: 30px;
 }

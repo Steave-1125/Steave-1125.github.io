@@ -65,28 +65,8 @@ header{
   color: white;
 }
 
-.slidshow{
-  background-color: darkgray;
+.ex-img{
   text-align: center;
-  padding: 50px;
-}
-
-.announces h2{
-  margin-top: 100px;
-  text-align: center;
-  border-bottom: 2px solid darkgray;
-}
-
-.announces-list{
-  border: 1px solid darkgray;
-}
-
-.sort p{
-  padding:  10px 5px;
-}
-
-#announce{
-  font-size: 30px;
 }
 
 footer{

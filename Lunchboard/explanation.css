@@ -57,7 +57,7 @@ header{
   width: 100vw;
   height: 100vh;
   transition: all 1s;
-  background-color: #0bd;
+  background-color: darkorange;
   position: fixed;
   top: 0;
   left: 0;

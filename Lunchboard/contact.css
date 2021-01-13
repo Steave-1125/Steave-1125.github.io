@@ -59,7 +59,7 @@ header{
   width: 100vw;
   height: 100vh;
   transition: all 1s;
-  background-color: #0bd;
+  background-color: darkorange;
   position: fixed;
   top: 0;
   left: 0;
@@ -101,8 +101,17 @@ header{
   color: white;
 }
 
+.contact-title{
+  text-align: center;
+  border-bottom: 2px solid darkgray;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding-bottom: 10px;
+}
 
-
+.contact-form{
+  text-align: center;
+}
 
 
 /*フッター*/

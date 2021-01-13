@@ -12,4 +12,5 @@ function slideshow_timer(){
   document.getElementById("foods").src = food[num];
 }
 
+
 setInterval(slideshow_timer, 3000);

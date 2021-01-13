@@ -8,7 +8,6 @@ function All_announce(){
   answerElement.innerHTML = output;
 }
 
-
 function operation(){
   let answerElement = document.querySelector("#announce");
   let output = "<ul style='list-style: none;'>";

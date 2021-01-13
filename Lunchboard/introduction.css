@@ -35,6 +35,8 @@ header{
 
 .header_sign-up:hover{
   background-color: crimson;
+  color: white;
+  text-decoration: none;
 }
 
 .header_login{
@@ -47,6 +49,8 @@ header{
 
 .header_login:hover{
   background-color: forestgreen;
+  color: white;
+  text-decoration: none;
 }
 
 /*ローディング*/
@@ -99,6 +103,13 @@ header{
 
 .top-menu li a{
   color: white;
+}
+
+.top-menu li a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  padding: 21px 30px;
 }
 
 .intoroductions{
@@ -154,6 +165,7 @@ footer{
 .footer_nav li a{
   display: block;
   padding-bottom: 10px;
+  text-decoration: none;
   color: white;
 }
 

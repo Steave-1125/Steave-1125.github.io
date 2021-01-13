@@ -31,36 +31,98 @@
   </ul>
   </nav>
 
-  <form class="search-box" action="/search-result/">
-    <input id="search-input" placeholder="キーワードを入力" type="text" name="search-key">
-    <input id="search-buttom" class="fas" type="submit" value="検索" method="get">
-  </form>
-
+<div class="searchs">
   <h2>絞り検索</h2>
-  <p>表示順</p>
-    おすすめ順
-    更新順
-    人気順
-  ジャンル
-    和食
-    アメリカ料理
-    中華料理
-    フランス料理
-    イタリア料理
-    ファストフード
-    インド料理
-  性別
-    男性
-    女性
-  限定
-    公認店舗
-    学生割有効
-    クーポン有効
-    バズってるお店
+  <ul class="search-block">
+    <li class="search-title"><p>キーワード検索</p></li>
+    <li class="search-contents">
+      <form class="search-box" action="/search-result/">
+       <input id="search-input" placeholder="キーワードを入力" type="text" name="search-key" width="50px">
+      </form>
+    </li>
 
+    <li class="search-title"><p>表示順</p></li>
+    <li class="search-contents">
+      <form name="display">
+        <input type="checkbox" value="r1" name="r1">おすすめ順
+        <input type="checkbox" value="r2" name="r1">更新順
+        <input type="checkbox" value="r3" name="r1">人気順
+     </form>
+    </li>
 
+    <li class="search-title"><p>ジャンル</p></li>
+    <li class="search-contents">
+      <form name="genre">
+        <input type="checkbox" value="r1" name="r1">和食
+        <input type="checkbox" value="r2" name="r1">アメリカ料理
+        <input type="checkbox" value="r3" name="r1">中華料理
+        <input type="checkbox" value="r4" name="r1">フランス料理
+        <input type="checkbox" value="r5" name="r1">イタリア料理
+        <input type="checkbox" value="r6" name="r1">ファストフード
+        <input type="checkbox" value="r7" name="r1">インド料理
+      </form>
+    </li>
+
+    <li class="search-title"><p>性別</p></li>
+    <li class="search-contents">
+      <form name="display">
+        <input type="checkbox" value="r1" name="r1">男性
+        <input type="checkbox" value="r2" name="r1">女性
+      </form>
+    </li>
+
+    <li class="search-title"><p>限定</p></li>
+    <li class="search-contents">
+      <form name="display">
+        <input type="checkbox" value="r1" name="r1">公認店舗
+        <input type="checkbox" value="r2" name="r1">学生割有効
+        <input type="checkbox" value="r3" name="r1">クーポン有効
+        <input type="checkbox" value="r4" name="r1">バズってるお店
+      </form>
+    </li>
+
+  </ul>
+
+  <div id="search-buttom">
+    <input type="submit" action="http://www.google.co.jp/search" value="検索" class="btn btn-outline-warning btn-lg">
+  </div>
+
+</div>
+
+<div class="foods">
+  <h2>人気ランキング</h2>
+
+  <ul class="food-list1">
+    <li><h3>1位</h3></li>
+    <li><img src="img/beef.jpg" alt="人気１位"></li>
+    <li class="food-list-text"><a href="#">【東京都○○区】学割あり！ボリューム満点のステーキ屋さん　〇〇○○</a></li>
+    <li class="food-list-text"><p>【ランキング5連続１位！！】ボリューム満点で尚且つジューシーで非常に美味なステーキ！！<br>学割もあり、安い！美味い！が叶う魅力的なお店！</p></li>
+  </ul>
+
+  <ul class="food-list2">
+    <li><h3>2位</h3></li>
+    <li><a href="#">【東京都○○区】まるでファストフード！串カツを食べて活力を付けよう！！　〇〇○○</a></li>
+    <li><img src="img/kushikatsu1.png" alt="人気2位"></li>
+    <li><p>【レビュー１位！！】串カツ専門店！！ランチは学生コース付き！！</p></li>
+  </ul>
+
+  <ul class="food-list3">
+    <li><h3>3位</h3></li>
+    <li><a href="#">【東京都○○区】からあげ専門店！　〇〇○○</a></li>
+    <li><img src="img/karaage1.png" alt="人気3位"></li>
+    <li><p>手軽に食べられるファストフード、食べ歩き！！<br>学割で15個が500円！！</p></li>
+  </ul>
+
+  <ul class="food-list4">
+    <li><h3>4位</h3></li>
+    <li><a href="#">【東京都○○区】本格派カレーライスのお店！スパイス香る100時間煮込んだ絶品カレー　〇〇○○</a></li>
+    <li><img src="img/corry1.png" alt="人気4位"></li>
+    <li><p>【急上昇１位！！】学生に大人気のカレーライス屋さん！<br>100時間も煮込んでいるのでとても濃厚でスパイスが効くとてもおいしいカレーライスが人気です。</p></li>
+  </ul>
+</div>
 
 </main>
+
 <footer>
   <ul class="footer_nav">
     <li><a href="home.html">ホーム</a></li>

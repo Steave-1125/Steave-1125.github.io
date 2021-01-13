@@ -1,9 +1,17 @@
+html{
+  height: 1980px;
+}
+
 body{
   margin: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
 }
 
 /*ヘッダー*/
@@ -15,6 +23,7 @@ header{
 #logo{
   width: 230px;
   height: 50px;
+  padding: 0;
   margin: 30px 0 0 50px;
 }
 
@@ -35,6 +44,8 @@ header{
 
 .header_sign-up:hover{
   background-color: crimson;
+  color: white;
+  text-decoration: none;
 }
 
 .header_login{
@@ -47,6 +58,8 @@ header{
 
 .header_login:hover{
   background-color: forestgreen;
+  color: white;
+  text-decoration: none;
 }
 
 /*ローディング*/
@@ -101,11 +114,39 @@ header{
   color: white;
 }
 
-.search-box{
-  text-align: center;
+.searchs{
+  width: 50%;
+  margin: 30px;
+  border: 2px solid darkorange;
 }
 
+.search-contents{
+  margin-bottom: 30px;
+}
 
+#search-buttom{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.foods{
+  height: 1300px;
+}
+
+.foods h2{
+  border-bottom: 2px solid darkgray;
+  padding-bottom: 5px;
+}
+
+.foods img{
+  width:  320px;
+  height: 160px;
+}
+
+.food-list li a{
+  font-size: 20px;
+  color: white;
+}
 
 /*フッター*/
 footer{
@@ -121,6 +162,7 @@ footer{
 .footer_nav li a{
   display: block;
   padding-bottom: 10px;
+  text-decoration: none;
   color: white;
 }
 
